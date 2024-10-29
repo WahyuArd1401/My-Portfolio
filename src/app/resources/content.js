@@ -1,12 +1,12 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Wahyu',
+    lastName:  'Ardian',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Web Development',
     avatar:    '/images/avatar.jpg',
     location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
@@ -24,12 +24,12 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/WahyuArd1401',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/wahyuardian/',
     },
     {
         name: 'X',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mohammadwahyu.ardian@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Unifying Aesthetics and Technology</>,
+    subline: <>I'm Wahyu, a <InlineCode>web developer</InlineCode> who blends design and functionality to craft seamless digital experiences. From code to creation, I bring ideas to life online.</>
 }
 
 const about = {
@@ -69,19 +69,27 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Wahyu is a web developer focused on simplifying complex challenges into intuitive and effective web solutions. His expertise includes developing digital interfaces, creating interactive experiences, and blending design with technology for optimal results.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Lab Law',
+                timeframe: 'February 2024 - July 2024',
+                role: 'Head of Web Development',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Led a team of 2 internship employees</>,
+                    <>Identified and outlined website requirements based on the director's guidance</>,
+                    <>Organized the timeline for website development</>,
+                    <>Conducted website development using the Laravel, Inertia.js, and React.js frameworks</>,
+                    <>Designed 19 website pages in Figma</>,
+                    <>Sliced 8 pages and ensured responsive design for user views</>,
+                    <>Provided 5 monthly progress repor,ts to the director and founder</>,
+                    <>Awarded Best Head in May and June</>,
+                    <>Managed domain and hosting service purchases</>,
+                    <>Supervised website deployment using Domainesia</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -89,19 +97,32 @@ const about = {
                         alt: 'Once UI Project',
                         width: 16,
                         height: 9
-                    }
+                    }, 
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Core Initiative x Rakamin Academy',
+                timeframe: 'January 2024 - February 2024',
+                role: 'Frontend Developer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Successfully deployed the project in local environment using Docker Desktop and cloud environment using Firebase</>,
+                    <>Included in the Ordinary Student category by completing 4 assignments and getting an average score of 78.5</>,
+                    <>Slicing the final project UI with 90% similarity to the predetermined design using the Vue.js framework</>,
+                    <>Successfully obtained and displayed 20 data from the Fakestore API using the Axios library</>,
                 ],
                 images: [ ]
-            }
+            },
+            {
+                company: 'CV. Interlink Indonesia Network',
+                timeframe: 'April 2023 - July 2023',
+                role: 'Mobile Developer',
+                achievements: [
+                    <>Designed 34 wireframes in Figma</>,
+                    <>Translated 34 layouts into Flutter components for the IndeKost application</>,
+                    <>Developed and implemented API fetching functionality</>,
+                ],
+                images: [ ]
+            }, 
         ]
     },
     studies: {
@@ -109,12 +130,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Brawijaya University',
+                description: <>Informatics engineering.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'SMA Negeri 1 Bangil',
+                description: <>Nature Science</>,
             }
         ]
     },
@@ -186,7 +207,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-02.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-03.jpg', 
@@ -196,22 +217,22 @@ const gallery = {
         { 
             src: '/images/gallery/img-04.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-05.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-06.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-07.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-08.jpg', 
@@ -221,12 +242,12 @@ const gallery = {
         { 
             src: '/images/gallery/img-09.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-10.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-11.jpg', 
@@ -235,16 +256,6 @@ const gallery = {
         },
         { 
             src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },

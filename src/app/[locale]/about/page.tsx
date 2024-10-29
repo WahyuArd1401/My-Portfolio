@@ -83,7 +83,7 @@ export default function About(
                         url: `https://${baseURL}/about`,
                         image: `${baseURL}/images/${person.avatar}`,
                         sameAs: social
-                            .filter((item) => item.link && !item.link.startsWith('mailto:')) // Filter out empty links and email links
+                            .filter((item) => item.link && !item.link.startsWith('mailto:'))
                             .map((item) => item.link),
                         worksFor: {
                             '@type': 'Organization',
