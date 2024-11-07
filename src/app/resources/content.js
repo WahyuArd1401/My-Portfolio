@@ -6,10 +6,10 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Web Development',
+    role:      'Web Developer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/Jakarta',       
+    languages: ['English', 'Bahasa'] 
 }
 
 const newsletter = {
@@ -205,44 +205,9 @@ const gallery = {
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-02.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-03.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-04.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-05.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-06.jpg', 
+            src: '/images/gallery/img-12.jpg', 
             alt: 'image',
             orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-07.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-08.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-09.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
         },
         { 
             src: '/images/gallery/img-10.jpg', 
@@ -250,14 +215,29 @@ const gallery = {
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-11.jpg', 
+            src: '/images/gallery/img-05.jpg', 
+            alt: 'image',
+            orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-02.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-12.jpg', 
+            src: '/images/gallery/img-07.jpg', 
+            alt: 'image',
+            orientation: 'vertikal'
+        },
+        { 
+            src: '/images/gallery/img-06.jpg', 
             alt: 'image',
             orientation: 'horizontal'
+        },
+        { 
+            src: '/images/gallery/img-11.jpg', 
+            alt: 'image',
+            orientation: 'vertikal'
         },
     ]
 }
