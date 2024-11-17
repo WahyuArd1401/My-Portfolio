@@ -73,7 +73,7 @@ const about = {
     },
     work: {
         display: true, // set to false to hide this section
-        title: 'Work Experience',
+        title: 'Experience',
         experiences: [
             {
                 company: 'Lab Law',
@@ -93,11 +93,11 @@ const about = {
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
+                        src: '/images/projects/lablaw/Certificate of Appreciation.jpg',
                         alt: 'Once UI Project',
                         width: 16,
                         height: 9
-                    }, 
+                    },
                 ]
             },
             {
@@ -109,6 +109,18 @@ const about = {
                     <>Included in the Ordinary Student category by completing 4 assignments and getting an average score of 78.5</>,
                     <>Slicing the final project UI with 90% similarity to the predetermined design using the Vue.js framework</>,
                     <>Successfully obtained and displayed 20 data from the Fakestore API using the Axios library</>,
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Bangkit Academy 2023 Batch 1',
+                timeframe: 'February 2023 - July 2023',
+                role: 'Cloud Computing Cohort',
+                achievements: [
+                    <>Conducted self-study and obtained 5 certificates from Dicoding and Coursera courses, along with 24 completion badges from Google Skill Boost.</>,
+                    <>Participated in 17 Instructor Led Training (ILT) sessions covering soft skills, hard skills, and English language proficiency.</>,
+                    <>Enhanced understanding of concepts and technologies related to cloud computing through exploration of the Google Cloud Platform.</>,
+                    <>Experienced in integrating cloud services in the development of the Sawit-Hub application project</>,
                 ],
                 images: [ ]
             },
@@ -145,7 +157,7 @@ const about = {
         skills: [
             {
                 title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                description: <></>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-02.jpg',
